@@ -15,4 +15,7 @@ Step 1: Create the JSON File
   {"id": 3, "name": "Charlie", "age": 35}
   ]
 
-  
+  #ADD DEPENDENCIES
+  1. Go to Gradle Scripts -> build.gradles.kts -> dependencies
+  2.  implementation(libs.gson) --> in jetpack Compose format
+  3.   implementation 'com.google.code.gson:gson:2.8.6' -> in Xml format
